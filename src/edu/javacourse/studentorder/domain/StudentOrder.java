@@ -33,7 +33,7 @@ public class StudentOrder
         this.studentOrderStatus = studentOrderStatus;
     }
 
-    public LocalDateTime getStudentOrderDate() {
+    public LocalDateTime getStudentOrderDate(LocalDateTime student_order_date) {
         return studentOrderDate;
     }
 
